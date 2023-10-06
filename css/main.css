@@ -1,0 +1,68 @@
+body{
+    
+    margin: 0;
+    font-family: 'Croissant One', cursive;
+}
+
+.container {
+
+    max-width: 1110px;
+    background-color: antiquewhite;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-color: #5d7697;
+    background-image: url("./header-bg.jpg");
+    background-size: cover;
+
+
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.header-title {
+
+    
+        color: #ffffff;
+        text-align: center;
+        
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 130%; /* 72.8px */
+
+
+}
+
+.header-subtitle{
+    color: #ffffff;
+    
+  
+    font-size: 16px;
+    
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+    letter-spacing: 3.2px;
+    text-transform: uppercase; 
+}
+
+.header-arrow{
+    width: 48px;
+    height: 48px;
+
+    position: absolute;
+    bottom: 30px;  
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.portfolio {
+
+}
